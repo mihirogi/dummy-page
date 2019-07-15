@@ -113,8 +113,13 @@
               "devServerTarget": "dummy-page:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "ngx-gh:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "dummy-page"
 }
